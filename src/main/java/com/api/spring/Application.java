@@ -1,13 +1,13 @@
-package com.apispring;
+package com.api.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class api {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(api.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
